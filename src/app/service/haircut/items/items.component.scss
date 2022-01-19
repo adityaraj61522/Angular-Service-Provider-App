@@ -1,0 +1,101 @@
+#item{
+    height: 100px;
+    width: 600px; 
+    border: 1px solid #ddd; 
+    margin-top: 10px; 
+    margin-left: 0px; 
+    padding-left: 20px;
+    }
+    #item-img{
+    display: inline;
+    position: relative;
+    }
+    #item-img>img{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    margin-top: 10px;
+    background: linear-gradient(to bottom, #FDA55F 0%, #FF6270 100%);
+    }
+    #item-desc{
+    display: inline; 
+    padding-left: 20px;
+    padding-top: 20px;
+    }
+    #item-desc>p{
+    margin-bottom: 0;
+    }
+    #quantity{
+    display: inline;
+    margin-left: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+    }
+    #addtocart-btn{
+        height:40px;
+        width:115px;
+        background-color:purple;
+        border:none;
+        border-radius:10px;
+        color:white;
+    }
+    form {
+    width: 130px;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 0px;
+    }
+    
+    .value-button {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+    background-color: purple !important;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 3px;
+    background: #eee;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+    
+    .value-button:hover {
+    cursor: pointer;
+    }
+    
+    form #decrease {
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+    }
+    
+    form #increase {
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+    }
+    
+    form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+    }
+    
+    input#number {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    width: 40px;
+    height: 40px;
+    }
+    
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }

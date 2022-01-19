@@ -1,0 +1,14 @@
+<div id="cart">
+		<div id="cart-nav"><h3>Cart Items</h3></div>
+		<div id="items-area">
+		<div class="alert alert-info" *ngIf="cartItems.length === 0">No Items!!!!!</div>
+		<div *ngIf="cartItems.length > 0">
+			<ul class="list-group">
+				<li class="list-group-item" *ngFor="let item of cartItems">
+					<app-cart-item [cartItem]="item"></app-cart-item>
+				</li>
+			</ul>
+			</div>
+		</div>
+	<button type="button" class="btn btn-success" id="checkout"><strong>CheckOut</strong>{{cartTotal | currency : 'INR' }}</button>
+</div>

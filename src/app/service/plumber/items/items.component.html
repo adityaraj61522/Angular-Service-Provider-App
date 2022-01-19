@@ -1,0 +1,15 @@
+<div id="item" class="row">
+	<div id="item-img"><img src=""></div>
+	<div id="item-desc"><p>{{ itemdetails.name }}</p><p>{{ itemdetails.cost | currency:'INR'}}</p></div>
+	<div id="quantity">
+    <button id="addtocart-btn" (click)="handelerAddToCart()" *ngIf="quantity===0">Add to cart</button>
+        <form *ngIf="quantity>0">
+            <div class="row">
+                 <div class="value-button" id="decrease" (click)="decreseItem()" value="Decrease Value" >-</div>
+                 <div><input type="number" id="number" value="{{quantity}}" /></div>
+                 <div class="value-button" id="increase" (click)="handelerAddToCart()" value="Increase Value">+</div>
+            </div>
+        </form>
+    </div>
+    
+</div>

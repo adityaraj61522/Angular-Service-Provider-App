@@ -1,0 +1,28 @@
+/*================Service Catogories=====================*/
+#serv-nav{
+    margin-bottom: 20px;
+    border-radius: 10px; 
+    background-color: white; 
+    padding: 0px; 
+    text-align: center;
+    }
+    .nav-link{
+    color: purple;
+    }
+    #item{
+    padding-top:10px;
+    padding-bottom:20px; 
+    background-color:white;
+    }
+    
+
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        color: #fff;
+        background-color: purple;
+    }
+    /*=================items-list=========================*/
+
+    li{
+        padding: 0;
+        border: none;
+    }

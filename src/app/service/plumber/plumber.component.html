@@ -1,0 +1,83 @@
+<div class="row" style="width: 660px; margin-top: 20px;">
+<div class="col-12" style="">
+    <nav id="navbar-orders-now-status" class="navbar" style="margin-bottom: 20px;border-radius: 10px; background-color: white; padding: 0px; text-align: center;">
+        <ul class="nav nav-pills">
+            <li class="nav-item" style="width: 125px;">
+                <a class="nav-link" href="#SECTION1" data-turbolinks="false">Switch/Socket</a>
+            </li>
+            <li class="nav-item" style="width: 100px;">
+                <a class="nav-link" href="#SECTION2" data-turbolinks="false">plumber</a>
+            </li>
+            <li class="nav-item" style="width: 100px;">
+                <a class="nav-link" href="#SECTION3" data-turbolinks="false">Light</a>
+            </li>
+			<li class="nav-item" style="width: 100px;">
+                <a class="nav-link" href="#SECTION4" data-turbolinks="false">MCB/Fuse</a>
+            </li>
+            <li class="nav-item" style="width: 100px;">
+                <a class="nav-link" href="#SECTION5" data-turbolinks="false">Wiring</a>
+            </li>
+			<li class="nav-item" style="width: 100px;">
+                <a class="nav-link" href="#SECTION6" data-turbolinks="false">Others</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<div class="row" data-spy="scroll" data-target="#navbar-orders-now-status" data-offset="50" style="height: 450px; overflow-y: scroll; background-color:white">
+    <div class="col-12">
+		<h4 id="SECTION1"></h4>
+        <div class="container-fluid">
+			<div style="border-bottom: 1px solid #ddd;"><p style="margin-bottom: 0;">Switches/Sockets</p></div>
+            <ul class="list-group">
+            <li class="list-group-item" *ngFor="let items of itemList">
+				<app-items [itemdetails]="items"></app-items>
+			</li>
+            </ul>
+		</div>
+        <h4 id="SECTION2"></h4>
+        <div class="container-fluid">
+			<div style="border-bottom: 1px solid #ddd;"><p style="margin-bottom: 0;">Switches/Sockets</p></div>
+            <ul class="list-group">
+            <li class="list-group-item" *ngFor="let items of itemList">
+				<app-items [itemdetails]="items"></app-items>
+			</li>
+            </ul>
+		</div>
+        <h4 id="SECTION3"></h4>
+        <div class="container-fluid">
+			<div style="border-bottom: 1px solid #ddd;"><p style="margin-bottom: 0;">Switches/Sockets</p></div>
+            <ul class="list-group">
+            <li class="list-group-item" *ngFor="let items of itemList">
+				<app-items [itemdetails]="items"></app-items>
+			</li>
+            </ul>
+		</div>
+		<h4 id="SECTION4"></h4>
+		<div class="container-fluid">
+			<div style="border-bottom: 1px solid #ddd;"><p style="margin-bottom: 0;">Switches/Sockets</p></div>
+            <ul class="list-group">
+            <li class="list-group-item" *ngFor="let items of itemList">
+				<app-items [itemdetails]="items"></app-items>
+			</li>
+            </ul>
+		</div>
+		<h4 id="SECTION5"></h4>
+		<div class="container-fluid">
+			<div style="border-bottom: 1px solid #ddd;"><p style="margin-bottom: 0;">Switches/Sockets</p></div>
+            <ul class="list-group">
+            <li class="list-group-item" *ngFor="let items of itemList">
+				<app-items [itemdetails]="items"></app-items>
+			</li>
+            </ul>
+		</div>
+		<h4 id="SECTION6"></h4>
+		<div class="container-fluid">
+			<div style="border-bottom: 1px solid #ddd;"><p style="margin-bottom: 0;">Switches/Sockets</p></div>
+            <ul class="list-group">
+            <li class="list-group-item" *ngFor="let items of itemList">
+				<app-items [itemdetails]="items"></app-items>
+			</li>
+            </ul>
+		</div>
+    </div>
+</div>

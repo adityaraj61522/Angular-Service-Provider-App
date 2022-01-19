@@ -1,0 +1,23 @@
+<app-nav></app-nav>
+
+
+<div id="background">
+<app-service-catagories></app-service-catagories>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7">
+			    <div *ngIf="catnor===6"><app-item-list></app-item-list></div>
+				<div *ngIf="catnor===2"><app-plumber></app-plumber></div>
+				<div *ngIf="catnor===3"><app-carpenter></app-carpenter></div>
+				<div *ngIf="catnor===4"><app-mechanic></app-mechanic></div>
+				<div *ngIf="catnor===1"><app-electrician></app-electrician></div>
+				<div *ngIf="catnor===5"><app-haircut></app-haircut></div>
+		    </div>
+			<div class="col-lg-3">
+				<app-cart></app-cart>
+			</div>
+		</div>
+	</div>
+</section>
+</div>
